@@ -4,6 +4,7 @@ from lcu_driver import Connector
 import sys, os
 import threading
 
+# pyinstaller --onefile -w --add-data "icon.ico;." --icon=./icon.ico --name "Qccept" main.py
 
 def resource_path(relative_path):
     """Get absolute path to resource, works for dev and for PyInstaller"""
